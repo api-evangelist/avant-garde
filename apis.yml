@@ -1,8 +1,29 @@
 aid: avant-garde
-name: Avant-garde
-description: 'Avant-garde is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/avant-garde.png
+name: Avant-Garde Health
+description: 'Avant-Garde Health is a healthcare data analytics company that helps
+  hospitals, ambulatory surgery centers (ASCs), and physicians identify cost-reduction
+  and quality-improvement opportunities in surgical care. Its CareMeasurement platform
+  ingests electronic medical record (EMR), financial, and patient-reported outcomes
+  data, combines it with claims data and proprietary algorithms, and applies time-driven
+  activity-based costing (TDABC) so care teams can drill into clinical, financial,
+  and operational detail, benchmark performance across departments and institutions,
+  and drive value-based improvement. Products span surgical cost management, surgical
+  coding optimization, surgical quality and outcomes optimization (ERAS), PACU and
+  OR throughput, and CMS TEAM support. Surfaced as a General Catalyst portfolio company
+  and added to the API Evangelist network; no public developer API surface was found
+  at enrichment time.'
 url: https://raw.githubusercontent.com/api-evangelist/avant-garde/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +33,36 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Analytics
+- Surgical Cost Management
+- Value-Based Care
+- Hospitals
+- Data Analytics
 apis: []
+common:
+- type: DomainSecurity
+  url: security/avant-garde-domain-security.yml
+- type: Website
+  url: https://www.avantgardehealth.com
+- type: Blog
+  url: https://www.avantgardehealth.com/blog/
+- type: PrivacyPolicy
+  url: https://www.avantgardehealth.com/privacy-policy/
+- type: Login
+  url: https://caremeasurement.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/avant-garde-health
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
